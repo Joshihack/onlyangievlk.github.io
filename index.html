@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Ti</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif; /* Fuente Times New Roman */
+            background-color: #f7c5bf;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Centrando todo el contenido */
+        }
+        footer {
+            background-color: #ff1493;
+            color: white;
+            padding: 1rem;
+        }
+        main {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        section {
+            margin-bottom: 1.5rem;
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 20px; /* Marco curvado */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            text-align: justify; /* Texto justificado */
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1, h2 {
+            color: #ff1493;
+            text-align: center; /* Centrando los títulos */
+        }
+        p {
+            line-height: 1.5;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 1rem;
+            border-radius: 8px;
+        }
+        .youtube-link {
+            display: flex;
+            justify-content: center; /* Centrando los enlaces */
+            margin: 1rem 0;
+        }
+        .youtube-link a {
+            background-color: #ff1493;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px; /* Marco curvado */
+            transition: background-color 0.3s, transform 0.3s;
+            margin: 0 10px; /* Iconos más separados */
+        }
+        .youtube-link a:hover {
+            background-color: white;
+            color: #ff1493;
+            border: 1px solid #ff1493;
+            transform: translateY(-3px);
+        }
+        .audio-player {
+            background-color: #f7f7f7;
+            padding: 1rem;
+            border-radius: 10px;
+            margin-top: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .audio-player audio {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .audio-player audio::-webkit-media-controls-panel {
+            background-color: #f7f7f7;
+            color: #333;
+            border-radius: 10px;
+        }
+        .audio-player audio::-webkit-media-controls-play-button,
+        .audio-player audio::-webkit-media-controls-mute-button,
+        .audio-player audio::-webkit-media-controls-volume-slider,
+        .audio-player audio::-webkit-media-controls-timeline {
+            filter: invert(0);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Angelina Valeska</h2>
+            <img src="https://i.pinimg.com/736x/96/98/f6/9698f62bba3ee3c5929203f478d60c56.jpg" alt="Para ti">
+            <p>Querida Angelina,</p>
+            <p>He estado pensando en lo mucho que me gustaría volver a verte. La última vez que fui a tu casa fue realmente especial para mí. La idea de poder darte otro gran abrazo me llena de emoción. Extraño esos momentos que compartimos, nuestras charlas y las risas. Sería maravilloso poder repetirlos pronto.</p>
+            <p>Aunque he estado muy ocupado cuidando Gotham City, prometo que encontraré tiempo para ir a verte. La idea de verte otra vez me hace muy feliz y me arranca una sonrisa.</p>
+            <p>Con todo mi cariño,<br>Batman (Joshi)</p>
+        </section>
+        <section>
+            <h2>Pasatiempos</h2>
+            <img src="https://i.pinimg.com/736x/ae/d3/57/aed3576a2f66af54f095468e4b2972e0.jpg" alt="A ella le gusta">
+            <p>Todavía no tengo claro cuáles son todos tus hobbies y pasatiempos, pero créeme que me encantaría descubrirlos contigo. Lo poco que sé de ti ya me tiene fascinado. Me encanta que a ambos nos guste el color celeste, que tengamos gustos similares en cuanto a la música, y que tu mamá y tú celebren sus cumpleaños tan cerca uno del otro. Admiro mucho que seas una chica tan centrada en los estudios. Sé que casi no usas redes sociales y no te gusta tomarte fotos, aunque eso me cuesta entenderlo porque eres jodidamente preciosa.</p>
+        </section>
+        <section>
+            <h2>Tal vez nunca te dije que:</h2>
+            <img src="https://i.pinimg.com/736x/0d/59/8a/0d598ac2dbefbd917473d9eee46bc30f.jpg" alt="Momentos memorables">
+            <p>Tal vez nunca te lo dije, pero adoro tus ojitos negros. Eres alta, flaquita y demasiado linda, cosas que solo te hacen aún más increíble para mí. Desde que era pequeño, siempre he sentido algo especial por ti. Puede que no haya tenido el valor de confesártelo directamente antes, pero la verdad es que siempre me has gustado. Recuerdo esos momentos en los que te veía y me quedaba sin palabras, asombrado por lo increíble que eres.</p>
+            <p>También me encanta lo inteligente que eres, admiro mucho tu dedicación a los estudios y lo centrada que eres. Espero que algún día pueda estar ahí para tu graduación, apoyándote y celebrando tus logros.</p>
+        </section>
+        <section>
+            <h2>Pa ti <3</h2>
+            <div class="youtube-link">
+                <a href="https://www.youtube.com/watch?v=GxldQ9eX2wo" target="_blank">Until I Found You</a>
+                <a href="https://www.youtube.com/watch?v=1_tjOgqG8Yc&list=RD1VYbKamjB-4&index=10" target="_blank">My Kind of Woman</a>
+                <a href="https://www.youtube.com/watch?v=mGUjVbsYG6E" target="_blank">No. 1 Party Anthem</a>
+                <a href="https://www.youtube.com/watch?v=bhzgi0g-EOc" target="_blank">Die With A Smile</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; De parte de Joshi
+    </footer>
+    <!-- Añadir el audio -->
+    <div class="audio-player">
+        <audio src="mac.mp3" controls loop autoplay>
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </div>
+</body>
+</html>
